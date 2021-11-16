@@ -8,7 +8,7 @@
     <header>
         <nav>
             <a>
-<img src="svg\index-logo.svg" width="368" height="200" alt="Логотип барбершопа «Бородинский»">
+<img src="index-logo.svg" width="368" height="200" alt="Логотип барбершопа «Бородинский»">
 </a>
             <ul>
                 <li> <a href="info.html">Информация</a></li>
@@ -22,7 +22,29 @@
                     <button tupe="button">Войти</button>
                 </li>
             </ul>
-
+        </ul>
+    </nav> 
+    <h1>Логин</h1>
+        <form class="user" method="post"
+        action="https://echo.htmlacademy.ru">
+       <p>
+        <label for="user-login">Логин</label>   
+        <input id="user-login" type="text"
+        name="login" placeholder="Логин">
+       </p>
+        <p>
+           <label for="user-password">Пароль</label>   
+           <input id="user-password" type="text"
+           name="password" placeholder="Пароль">
+        </p>
+        <p>
+            <label>
+            <input type="checkbox" name="remember">
+           Запомните меня
+           </label>
+        </p>
+        <button tupe="submit">Войти</button>
+        </form>
         </nav>
     </header>
 
